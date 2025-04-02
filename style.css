@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Playwrite+IT+Moderna:wght@100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tektur:wght@400..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*,*:after,*:before{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+    font-family: "Geist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal; 
+    font-size: 3rem; 
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.RoundUpdater{
+    font-family: 'Courier New', Courier, monospace;
+}
+.buttoncontainer{
+    align-self: center;
+    display: grid;
+    grid-template-rows: 100px 100px;
+    grid-template-columns: 150px 150px;
+    gap: 100px;
+}
+button{
+    height: 100px;
+    width: 150px;
+    border-radius: 30px;
+    border: 2px solid black;
+}
+.roundContainer{
+    margin-top: 21px;
+    display: flex;
+    justify-content: center;
+}
+.scoreContainer{
+    display: flex;
+    justify-content: center;
+}
+#red{
+    background-color: rgb(255, 0, 0);
+}
+#green{
+    background-color: rgb(30, 255, 0);
+}
+#yellow{
+    background-color: rgb(238, 255, 0);
+}
+#blue{
+    background-color: rgb(0, 234, 250);
+}
