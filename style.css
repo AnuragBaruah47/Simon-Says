@@ -56,28 +56,28 @@ button{
     background-color: rgb(0, 234, 250);
 }
 
-@media(width<677){
+@media(width<=677px){
     .container{
         border-radius: 412px;
-        height: 650px;
-        width: 650px;
+        height: 350px;
+        width: 350px;
         border: 2px solid rgb(255, 255, 255);
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items:center;
         transform: rotateX(40deg);
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
     button{
-        height: 150px;
-        width: 250px;
+        height: 50px;
+        width: 100px;
         border-radius: 50px;
     }
     .buttoncontainer{
         display: grid;
-        grid-template-rows: 150px 150px;
-        grid-template-columns: 250px 250px;
+        grid-template-rows: 50px 50px;
+        grid-template-columns: 100px 100px;
     }
     .roundContainer{
         margin-bottom: 30px;
