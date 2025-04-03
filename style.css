@@ -11,39 +11,37 @@ body{
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal; 
-    font-size: 3rem; 
-}
-.container{
+    display: flex;
+    justify-content: center; 
     height: 100vh;
     width: 100vw;
+    align-items: center;
+    perspective: 1000px;
+}
+.container{
+    border-radius: 412px;
+    height: 650px;
+    width: 650px;
+    border: 2px solid rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-}
-.RoundUpdater{
-    font-family: 'Courier New', Courier, monospace;
-}
-.buttoncontainer{
-    align-self: center;
-    display: grid;
-    grid-template-rows: 100px 100px;
-    grid-template-columns: 150px 150px;
-    gap: 100px;
+    justify-content: center;
+    align-items:center;
+    transform: rotateX(40deg);
+    font-size: 2.5rem;
 }
 button{
-    height: 100px;
-    width: 150px;
-    border-radius: 30px;
-    border: 2px solid black;
+    height: 150px;
+    width: 250px;
+    border-radius: 50px;
+}
+.buttoncontainer{
+    display: grid;
+    grid-template-rows: 150px 150px;
+    grid-template-columns: 250px 250px;
 }
 .roundContainer{
-    margin-top: 21px;
-    display: flex;
-    justify-content: center;
-}
-.scoreContainer{
-    display: flex;
-    justify-content: center;
+    margin-bottom: 30px;
 }
 #red{
     background-color: rgb(255, 0, 0);
@@ -56,4 +54,32 @@ button{
 }
 #blue{
     background-color: rgb(0, 234, 250);
+}
+
+@media(width<677){
+    .container{
+        border-radius: 412px;
+        height: 650px;
+        width: 650px;
+        border: 2px solid rgb(255, 255, 255);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+        transform: rotateX(40deg);
+        font-size: 2.5rem;
+    }
+    button{
+        height: 150px;
+        width: 250px;
+        border-radius: 50px;
+    }
+    .buttoncontainer{
+        display: grid;
+        grid-template-rows: 150px 150px;
+        grid-template-columns: 250px 250px;
+    }
+    .roundContainer{
+        margin-bottom: 30px;
+    }
 }
