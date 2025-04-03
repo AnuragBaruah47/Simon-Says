@@ -20,40 +20,45 @@ body{
 }
 .container{
     border-radius: 412px;
-    height: 650px;
-    width: 650px;
-    border: 2px solid rgb(255, 255, 255);
+    height: 700px;
+    width: 700px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items:center;
-    transform: rotateX(40deg);
     font-size: 2.5rem;
+    border: 20px solid white;
+    transform: rotateX(30deg);
 }
 button{
     height: 150px;
     width: 250px;
     border-radius: 50px;
 }
+
 .buttoncontainer{
     display: grid;
+    perspective: 1000px;
     grid-template-rows: 150px 150px;
     grid-template-columns: 250px 250px;
+    border-radius: 50px;
+    border: 3px solid black;
+    background: black;
 }
 .roundContainer{
     margin-bottom: 30px;
 }
 #red{
-    background-color: rgb(255, 0, 0);
+    background-color: red;
 }
 #green{
-    background-color: rgb(30, 255, 0);
+    background-color: green;
 }
 #yellow{
-    background-color: rgb(238, 255, 0);
+    background-color: yellow;
 }
 #blue{
-    background-color: rgb(0, 234, 250);
+    background-color: blue;
 }
 
 @media(width<=677px){
