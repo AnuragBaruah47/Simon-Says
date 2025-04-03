@@ -60,7 +60,6 @@ button{
 #blue{
     background-color: blue;
 }
-
 @media(width<=677px){
     .container{
         border-radius: 412px;
